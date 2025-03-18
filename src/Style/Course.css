@@ -1,7 +1,5 @@
-/* Global styles */
+/* 
 
-
-/* Container for courses */
 .course-container {
     min-height: 100vh;
     display: flex;
@@ -10,7 +8,6 @@
     padding: 40px 20px;
 }
 
-/* Page Title */
 .course-title {
     font-size: 3rem;
     font-weight: bold;
@@ -20,7 +17,6 @@
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Course Grid */
 .course-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -29,7 +25,6 @@
     width: 100%;
 }
 
-/* Course Card */
 .course-card {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
@@ -46,7 +41,6 @@
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
 
-/* Course Name */
 .course-card h2 {
     font-size: 1.8rem;
     font-weight: bold;
@@ -54,7 +48,6 @@
     margin-bottom: 10px;
 }
 
-/* Course Description */
 .course-card p {
     font-size: 1rem;
     color: black;
@@ -62,7 +55,6 @@
     margin-bottom: 15px;
 }
 
-/* Course Image */
 .course-card img {
     width: 100%;
     height: 200px;
@@ -76,7 +68,6 @@
     transform: scale(1.05);
 }
 
-/* Link Styling */
 .course-link {
     display: inline-block;
     background: #ff7eb3;
@@ -91,4 +82,28 @@
 .course-link:hover {
     background: #ff5f9e;
     transform: scale(1.05);
+} */
+
+
+
+
+
+/* Course.css */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
 }
