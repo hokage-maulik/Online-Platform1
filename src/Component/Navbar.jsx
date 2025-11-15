@@ -18,7 +18,7 @@ export default function Navbar() {
 
   async function getdata() {
     try {
-      const res = await axios.get("https://portfolio-backend1-1-bit8.onrender.com/course/get");
+      const res = await axios.get("https://online-platform-backend-1.onrender.com/course/get");
       setState(res.data);
     } catch (error) {
       console.error("Error fetching data:", error);
