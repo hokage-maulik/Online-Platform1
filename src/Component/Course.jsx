@@ -38,7 +38,7 @@ export default function Course() {
     const [course, setCourse] = useState([]);
 
     useEffect(() => {
-        axios.get("https://online-platform-backend.onrender.com/course/get")
+        axios.get("https://portfolio-backend1-1-bit8.onrender.com/course/get")
             .then((res) => {
                 setCourse(res.data);
             }).catch((error) => {

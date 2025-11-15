@@ -133,7 +133,7 @@ export default function Lesson() {
     const { courseId } = useParams();
 
     useEffect(() => {
-        axios.get(`https://online-platform-backend.onrender.com/lesson/get/?courseId=${courseId}`)
+        axios.get(`https://portfolio-backend1-1-bit8.onrender.com/lesson/get/?courseId=${courseId}`)
             .then((res) => {
                 setLessons(res.data);
                 setLoading(false);

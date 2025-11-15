@@ -33,7 +33,7 @@ export default function Login() {
     }
 
     try {
-      const response = await axios.post('https://online-platform-backend.onrender.com/user/login', state);
+      const response = await axios.post('https://portfolio-backend1-1-bit8.onrender.com/user/login', state);
       if (response.status === 200) {
         alert('Login successful');
         setState({ email: '', password: '' });

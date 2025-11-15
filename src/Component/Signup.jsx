@@ -26,7 +26,7 @@ export default function Signup() {
   const Handelsubmit = async (e) => {
     e.preventDefault();
     try {
-      const data = await axios.post('https://online-platform-backend.onrender.com/user/signup', state);
+      const data = await axios.post('https://portfolio-backend1-1-bit8.onrender.com/user/signup', state);
       alert('Signup successful!');
       setState({ username: '', email: '', password: '' });
     } catch (error) {
